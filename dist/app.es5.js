@@ -112,8 +112,8 @@ function buildAllCollections() {
 
   // 3? - Sonoma
   addPhotoCollection(buildPhotoCollection('Sonoma Wine Tasting', [
-    buildPhotoWithDescription('3sonoma/IMG_4336.png', ''),
     buildPhotoWithDescription('3sonoma/IMG_4326.JPEG', ''),
+    buildPhotoWithDescription('3sonoma/IMG_4336.png', ''),
     buildPhotoWithDescription('3sonoma/IMG_4332.png', ''),
     buildPhotoWithDescription('3sonoma/IMG_4333.JPEG', ''),
     buildPhotoWithDescription('3sonoma/IMG_4340.png', ''),
@@ -139,11 +139,11 @@ function buildAllCollections() {
 
   // 7 - 
   addPhotoCollection(buildPhotoCollection('Wine Pairing Party', [
+    buildPhotoWithDescription('7wine/IMG_0024.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_5399.png', ''),
     buildPhotoWithDescription('7wine/IMG_0002.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_0011.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_0019.JPG', ''),
-    buildPhotoWithDescription('7wine/IMG_0024.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_0044.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_5395.png', ''),
     buildPhotoWithDescription('7wine/IMG_5403.JPEG', ''),
@@ -153,9 +153,9 @@ function buildAllCollections() {
 
   // 8 - 
   addPhotoCollection(buildPhotoCollection('Vanuatu', [
+    buildPhotoWithDescription('8vanuatu/BNL_0197.JPG', ''),
     buildPhotoWithDescription('8vanuatu/IMG_5546.png', ''),
     buildPhotoWithDescription('8vanuatu/BNL_0191.JPG', ''),
-    buildPhotoWithDescription('8vanuatu/BNL_0197.JPG', ''),
     buildPhotoWithDescription('8vanuatu/BNL_0289.JPG', ''),
     buildPhotoWithDescription('8vanuatu/IMG_5535.png', ''),
     buildPhotoWithDescription('8vanuatu/IMG_5541.png', ''),
@@ -185,9 +185,9 @@ function buildAllCollections() {
 
   // 9 - 
   addPhotoCollection(buildPhotoCollection('Fiji', [
+    buildPhotoWithDescription('9fiji/bnl_0364.JPEG', ''),
     buildPhotoWithDescription('9fiji/IMG_5704.png', ''),
     buildPhotoWithDescription('9fiji/BNL_0357.JPG', ''),
-    buildPhotoWithDescription('9fiji/bnl_0364.JPEG', ''),
     buildPhotoWithDescription('9fiji/BNL_0371.JPG', ''),
     buildPhotoWithDescription('9fiji/bnl_0435.jpg', ''),
     buildPhotoWithDescription('9fiji/BNL_0706.JPG', ''),
