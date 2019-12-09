@@ -258,19 +258,18 @@ function buildAllCollections() {
 
   // 12 - 
   addPhotoCollection(buildPhotoCollection('Floating Weekend', [
-    buildPhotoWithDescription('12float/IMG_6942.jpg', ''),
-    buildPhotoWithDescription('12float/IMG_6952.jpg', ''),
-    buildPhotoWithDescription('12float/IMG_6954.jpg', ''),
     buildPhotoWithDescription('12float/IMG_6956.jpg', ''),
-    buildPhotoWithDescription('12float/IMG_6958.jpg', ''),
+    buildPhotoWithDescription('12float/IMG_6952.jpg', ''),
     buildPhotoWithDescription('12float/IMG_6960.jpg', ''),
-    buildPhotoWithDescription('12float/IMG_6971.jpg', ''),
     buildPhotoWithDescription('12float/IMG_7016.jpg', ''),
     buildPhotoWithDescription('12float/IMG_7039.JPEG', ''),
   ]), 'May 2019');
 
   // 13 - 
   addPhotoCollection(buildPhotoCollection('Salt Lake City trip', [
+    buildPhotoWithDescription('13slc/IMG_8237.JPEG', ''),
+    buildPhotoWithDescription('13slc/IMG_8229.jpg', ''),
+    buildPhotoWithDescription('13slc/IMG_8244.jpg', ''),
     buildPhotoWithDescription('13slc/IMG_8166.jpg', ''),
     buildPhotoWithDescription('13slc/IMG_8175.jpg', ''),
     buildPhotoWithDescription('13slc/IMG_8178.JPEG', ''),
@@ -278,9 +277,6 @@ function buildAllCollections() {
     buildPhotoWithDescription('13slc/IMG_8188.JPEG', ''),
     buildPhotoWithDescription('13slc/IMG_8197.jpg', ''),
     buildPhotoWithDescription('13slc/IMG_8205.jpg', ''),
-    buildPhotoWithDescription('13slc/IMG_8229.jpg', ''),
-    buildPhotoWithDescription('13slc/IMG_8237.JPEG', ''),
-    buildPhotoWithDescription('13slc/IMG_8244.jpg', ''),
   ]), 'May 2019');
 
   // 14 - 
@@ -295,7 +291,6 @@ function buildAllCollections() {
 
   // 15 - 
   addPhotoCollection(buildPhotoCollection('Wedding Season', [
-    buildPhotoWithDescription('15weddings/59406852934__D9C2930C-5BB8-4543-B2CD-242C834BD138.JPG', ''),
     buildPhotoWithDescription('15weddings/IMG_8663.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_8670.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_8676.jpg', ''),
@@ -303,13 +298,13 @@ function buildAllCollections() {
     buildPhotoWithDescription('15weddings/IMG_8896.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_8903.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_8920.jpg', ''),
-    buildPhotoWithDescription('15weddings/IMG_9017.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_9069.jpg', ''),
+    buildPhotoWithDescription('15weddings/IMG_9164.JPG', ''),
     buildPhotoWithDescription('15weddings/IMG_9119.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_9123.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_9139.jpg', ''),
+    buildPhotoWithDescription('15weddings/59406852934__D9C2930C-5BB8-4543-B2CD-242C834BD138.JPG', ''),
     buildPhotoWithDescription('15weddings/IMG_9156.jpg', ''),
-    buildPhotoWithDescription('15weddings/IMG_9164.JPG', ''),
     buildPhotoWithDescription('15weddings/IMG_9166.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_9167.jpg', ''),
     buildPhotoWithDescription('15weddings/IMG_9172.jpg', ''),
@@ -425,7 +420,10 @@ function genFirstImage(photos) {
   var i = document.createElement('img');
   i.src = firstPhoto.url;
   i.onload = resizeAllGridItems;
-  return i;
+  var wrap = document.createElement('div');
+  wrap.classList.add('collection-image');
+  wrap.appendChild(i);
+  return wrap;
 }
 
 function genCollectionDescription(photoCollection) {
