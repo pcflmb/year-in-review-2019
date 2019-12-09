@@ -97,8 +97,8 @@ function buildAllCollections() {
     buildPhotoWithDescription('3ski/IMG_7024.png', ''),
   ]), 'Feb 2019');
 
-  // 4 - Ski pt 2
-  addPhotoCollection(buildPhotoCollection('Ski Daytrip', [
+  // 4 - Tahoe
+  addPhotoCollection(buildPhotoCollection('Tahoe Daytrip', [
     buildPhotoWithDescription('4ski2/IMG_4950.JPEG', ''),
     buildPhotoWithDescription('4ski2/IMG_4927.png', ''),
     buildPhotoWithDescription('4ski2/IMG_4931.png', ''),
@@ -231,6 +231,169 @@ function buildAllCollections() {
     buildPhotoWithDescription('9fiji/IMG_6008.png', ''),
   ]), 'May 2019');
 
+  // 10 - 
+  addPhotoCollection(buildPhotoCollection('Cherry season', [
+    buildPhotoWithDescription('10cherries/IMG_6370.JPEG', ''),
+    buildPhotoWithDescription('10cherries/IMG_6375.JPEG', ''),
+    buildPhotoWithDescription('10cherries/IMG_6378.png', ''),
+    buildPhotoWithDescription('10cherries/IMG_6448.png', ''),
+    buildPhotoWithDescription('10cherries/IMG_6477.png', ''),
+    buildPhotoWithDescription('10cherries/IMG_6552.png', ''),
+    buildPhotoWithDescription('10cherries/IMG_6554.png', ''),
+  ]), 'May 2019');
+
+  // 11 - 
+  addPhotoCollection(buildPhotoCollection('Anniversary', [
+    buildPhotoWithDescription('11anniversary/IMG_6823.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6825.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6833.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6843.JPEG', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6849.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6862.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6864.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6870.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6882.png', ''),
+    buildPhotoWithDescription('11anniversary/IMG_6885.JPEG', ''),
+  ]), 'May 2019');
+
+  // 12 - 
+  addPhotoCollection(buildPhotoCollection('Floating Weekend', [
+    buildPhotoWithDescription('12float/IMG_6942.png', ''),
+    buildPhotoWithDescription('12float/IMG_6952.png', ''),
+    buildPhotoWithDescription('12float/IMG_6954.png', ''),
+    buildPhotoWithDescription('12float/IMG_6956.png', ''),
+    buildPhotoWithDescription('12float/IMG_6958.png', ''),
+    buildPhotoWithDescription('12float/IMG_6960.png', ''),
+    buildPhotoWithDescription('12float/IMG_6971.png', ''),
+    buildPhotoWithDescription('12float/IMG_7016.png', ''),
+    buildPhotoWithDescription('12float/IMG_7039.JPEG', ''),
+  ]), 'May 2019');
+
+  // 13 - 
+  addPhotoCollection(buildPhotoCollection('Salt Lake City trip', [
+    buildPhotoWithDescription('13slc/IMG_8166.png', ''),
+    buildPhotoWithDescription('13slc/IMG_8175.png', ''),
+    buildPhotoWithDescription('13slc/IMG_8178.JPEG', ''),
+    buildPhotoWithDescription('13slc/IMG_8184.png', ''),
+    buildPhotoWithDescription('13slc/IMG_8188.JPEG', ''),
+    buildPhotoWithDescription('13slc/IMG_8197.png', ''),
+    buildPhotoWithDescription('13slc/IMG_8205.png', ''),
+    buildPhotoWithDescription('13slc/IMG_8229.png', ''),
+    buildPhotoWithDescription('13slc/IMG_8237.JPEG', ''),
+    buildPhotoWithDescription('13slc/IMG_8244.png', ''),
+  ]), 'May 2019');
+
+  // 14 - 
+  addPhotoCollection(buildPhotoCollection('The California Honeydrops', [
+    buildPhotoWithDescription('14honeydrops/0914192053_HDR.jpg', ''),
+    buildPhotoWithDescription('14honeydrops/0914192157a_HDR.jpg', ''),
+    buildPhotoWithDescription('14honeydrops/0914192227_HDR.jpg', ''),
+    buildPhotoWithDescription('14honeydrops/0914192307_HDR.jpg', ''),
+    buildPhotoWithDescription('14honeydrops/IMG_8587.png', ''),
+    buildPhotoWithDescription('14honeydrops/IMG_8597.png', ''),
+  ]), 'May 2019');
+
+  // 15 - 
+  addPhotoCollection(buildPhotoCollection('Wedding Season', [
+    buildPhotoWithDescription('15weddings/59406852934__D9C2930C-5BB8-4543-B2CD-242C834BD138.JPG', ''),
+    buildPhotoWithDescription('15weddings/IMG_8663.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_8670.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_8676.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_8689.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_8896.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_8903.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_8920.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9017.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9069.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9119.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9123.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9139.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9156.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9164.JPG', ''),
+    buildPhotoWithDescription('15weddings/IMG_9166.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9167.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9172.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9181.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9184.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9194.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9201.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9207.png', ''),
+    buildPhotoWithDescription('15weddings/IMG_9209.png', ''),
+  ]), 'May 2019');
+
+  // 16 - 
+  addPhotoCollection(buildPhotoCollection('New Birds 🦜', [
+    buildPhotoWithDescription('16birds/IMG_9230.png', ''),
+    buildPhotoWithDescription('16birds/IMG_9286.JPEG', ''),
+    buildPhotoWithDescription('16birds/IMG_9288.JPG', ''),
+    buildPhotoWithDescription('16birds/IMG_9564.png', ''),
+  ]), 'May 2019');
+
+  // 17 - 
+  addPhotoCollection(buildPhotoCollection('Brendan\'s Birthday', [
+    buildPhotoWithDescription('17bday/BNL_0016_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/BNL_0020_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/BNL_0029_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/BNL_0033_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/BNL_0110_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/BNL_0132_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/BNL_0160_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/BNL_0166_Original.JPEG', ''),
+    buildPhotoWithDescription('17bday/IMG_9336.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9340.JPEG', ''),
+    buildPhotoWithDescription('17bday/IMG_9348.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9352.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9363.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9365.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9376.JPEG', ''),
+    buildPhotoWithDescription('17bday/IMG_9380.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9383.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9384.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9389.png', ''),
+    buildPhotoWithDescription('17bday/IMG_9393.png', ''),
+  ]), 'May 2019');
+
+  // 18 - 
+  addPhotoCollection(buildPhotoCollection('Thanksgiving', [
+    buildPhotoWithDescription('18thanks/IMG_0250.jpeg', ''),
+    buildPhotoWithDescription('18thanks/IMG_0253.jpeg', ''),
+    buildPhotoWithDescription('18thanks/IMG_9502.png', ''),
+    buildPhotoWithDescription('18thanks/IMG_9505.png', ''),
+    buildPhotoWithDescription('18thanks/IMG_9507.JPG', ''),
+    buildPhotoWithDescription('18thanks/IMG_9511.JPG', ''),
+  ]), 'May 2019');
+
+  // 19 - 
+  addPhotoCollection(buildPhotoCollection('Family Photo Shoot', [
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-100.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-101.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-102.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-103.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-104.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-105.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-106.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-107.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-108.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-109.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-110.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-111.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-112.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-113.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-114.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-115.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-116.jpg', ''),
+    buildPhotoWithDescription('19holiday/Berman_Holiday2019_InstaVersion_Camizzleful-117.jpg', ''),
+  ]), 'May 2019');
+
+  // 20 - 
+  addPhotoCollection(buildPhotoCollection('House', [
+    buildPhotoWithDescription('20house/1107191148_HDR.jpg', ''),
+    buildPhotoWithDescription('20house/1107191148.jpg', ''),
+    buildPhotoWithDescription('20house/1107191149.jpg', ''),
+    buildPhotoWithDescription('20house/1107191151_HDR.jpg', ''),
+    buildPhotoWithDescription('20house/1107191151a.jpg', ''),
+    buildPhotoWithDescription('20house/1107191152_HDR.jpg', ''),
+  ]), 'May 2019');
   return photoCollections;
 }
 // End of collection details  ----------------------------------------------------------------
