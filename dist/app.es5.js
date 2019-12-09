@@ -17,6 +17,9 @@ function buildAllCollections() {
     buildPhotoWithDescription('1nz/BNL_0172.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0167.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0176.JPG', ''),
+    buildPhotoWithDescription('1nz/PC230026.JPG', ''),
+    buildPhotoWithDescription('1nz/zBWR_08.jpg', ''),
+    buildPhotoWithDescription('1nz/zLab_08.jpg', ''),
     buildPhotoWithDescription('1nz/BNL_0197.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0214.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0222.JPG', ''),
@@ -42,6 +45,9 @@ function buildAllCollections() {
     buildPhotoWithDescription('1nz/BNL_0518.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0536.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0543.JPG', ''),
+    buildPhotoWithDescription('1nz/jump.jpg', ''),
+    buildPhotoWithDescription('1nz/fall.jpg', ''),
+    buildPhotoWithDescription('1nz/bounce.jpg', ''),
     buildPhotoWithDescription('1nz/BNL_0557.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0565.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0567.JPG', ''),
@@ -56,12 +62,6 @@ function buildAllCollections() {
     buildPhotoWithDescription('1nz/BNL_0630.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0640.JPG', ''),
     buildPhotoWithDescription('1nz/BNL_0684.JPG', ''),
-    buildPhotoWithDescription('1nz/bounce.jpg', ''),
-    buildPhotoWithDescription('1nz/fall.jpg', ''),
-    buildPhotoWithDescription('1nz/jump.jpg', ''),
-    buildPhotoWithDescription('1nz/PC230026.JPG', ''),
-    buildPhotoWithDescription('1nz/zBWR_08.jpg', ''),
-    buildPhotoWithDescription('1nz/zLab_08.jpg', ''),
   ]), 'Jan 2019');
 
   // 2 - Lauren Bday
