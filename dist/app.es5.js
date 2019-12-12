@@ -65,7 +65,7 @@ function buildAllCollections() {
   ]), 'Jan 2019');
 
   // 2 - Lauren Bday
-  addPhotoCollection(buildPhotoCollection('Lauren\'s Birthday Party', [
+  addPhotoCollection(buildPhotoCollection('Lauren\'s 30th Birthday', [
     buildPhotoWithDescription('2bday/IMG_0004.JPG', ''),
     buildPhotoWithDescription('2bday/IMG_0012.JPG', ''),
     buildPhotoWithDescription('2bday/IMG_0044.JPG', ''),
@@ -110,19 +110,20 @@ function buildAllCollections() {
     buildPhotoWithDescription('4ski2/IMG_4980.JPEG', ''),
   ]), 'Mar 2019');
 
-  // 3? - Sonoma
-  addPhotoCollection(buildPhotoCollection('Sonoma Wine Tasting', [
-    buildPhotoWithDescription('3sonoma/IMG_4326.JPEG', ''),
-    buildPhotoWithDescription('3sonoma/IMG_4336.jpg', ''),
-    buildPhotoWithDescription('3sonoma/IMG_4332.jpg', ''),
-    buildPhotoWithDescription('3sonoma/IMG_4333.JPEG', ''),
-    buildPhotoWithDescription('3sonoma/IMG_4340.jpg', ''),
-  ]), 'Apr 2019');
+  // // 3? - Sonoma
+  // addPhotoCollection(buildPhotoCollection('Sonoma Wine Tasting', [
+  //   buildPhotoWithDescription('3sonoma/IMG_4326.JPEG', ''),
+  //   buildPhotoWithDescription('3sonoma/IMG_4336.jpg', ''),
+  //   buildPhotoWithDescription('3sonoma/IMG_4332.jpg', ''),
+  //   buildPhotoWithDescription('3sonoma/IMG_4333.JPEG', ''),
+  //   buildPhotoWithDescription('3sonoma/IMG_4340.jpg', ''),
+  // ]), 'Apr 2019');
 
   // 5 - Disney
   addPhotoCollection(buildPhotoCollection('Disney!', [
     buildPhotoWithDescription('5disney/IMG_5083.JPG', ''),
     buildPhotoWithDescription('5disney/IMG_5091.JPG', ''),
+    buildPhotoWithDescription('5disney/IMG_5107.jpg', ''),
     buildPhotoWithDescription('5disney/IMG_5096.jpg', ''),
     buildPhotoWithDescription('5disney/IMG_5119.jpg', ''),
     buildPhotoWithDescription('5disney/IMG_5166.JPG', ''),
@@ -141,7 +142,6 @@ function buildAllCollections() {
   addPhotoCollection(buildPhotoCollection('Wine Pairing Party', [
     buildPhotoWithDescription('7wine/IMG_0024.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_5399.jpg', ''),
-    buildPhotoWithDescription('7wine/IMG_0002.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_0011.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_0019.JPG', ''),
     buildPhotoWithDescription('7wine/IMG_0044.JPG', ''),
@@ -243,7 +243,7 @@ function buildAllCollections() {
   ]), 'May 2019');
 
   // 11 - 
-  addPhotoCollection(buildPhotoCollection('Anniversary', [
+  addPhotoCollection(buildPhotoCollection('2nd Anniversary', [
     buildPhotoWithDescription('11anniversary/IMG_6823.jpg', ''),
     buildPhotoWithDescription('11anniversary/IMG_6825.jpg', ''),
     buildPhotoWithDescription('11anniversary/IMG_6833.jpg', ''),
@@ -285,8 +285,8 @@ function buildAllCollections() {
     buildPhotoWithDescription('14honeydrops/0914192157a_HDR.jpg', ''),
     buildPhotoWithDescription('14honeydrops/0914192227_HDR.jpg', ''),
     buildPhotoWithDescription('14honeydrops/0914192307_HDR.jpg', ''),
-    buildPhotoWithDescription('14honeydrops/IMG_8587.jpg', ''),
-    buildPhotoWithDescription('14honeydrops/IMG_8597.jpg', ''),
+    buildPhotoWithDescription('14honeydrops/IMG_8587.jpg', 'We spent the afternoon at the beach.'),
+    buildPhotoWithDescription('14honeydrops/IMG_8597.jpg', 'We spent the afternoon at the beach.'),
   ]), 'May 2019');
 
   // 15 - 
@@ -317,7 +317,7 @@ function buildAllCollections() {
   ]), 'May 2019');
 
   // 16 - 
-  addPhotoCollection(buildPhotoCollection('New Birds 🦜', [
+  addPhotoCollection(buildPhotoCollection('Mike + Sully 🦜', [
     buildPhotoWithDescription('16birds/IMG_9230.jpg', ''),
     buildPhotoWithDescription('16birds/IMG_9286.JPEG', ''),
     buildPhotoWithDescription('16birds/IMG_9288.JPG', ''),
@@ -325,7 +325,7 @@ function buildAllCollections() {
   ]), 'May 2019');
 
   // 17 - 
-  addPhotoCollection(buildPhotoCollection('Brendan\'s Birthday', [
+  addPhotoCollection(buildPhotoCollection('Brendan\'s Sedona Birthday', [
     buildPhotoWithDescription('17bday/BNL_0016_Original.JPEG', ''),
     buildPhotoWithDescription('17bday/BNL_0020_Original.JPEG', ''),
     buildPhotoWithDescription('17bday/BNL_0029_Original.JPEG', ''),
@@ -335,7 +335,7 @@ function buildAllCollections() {
     buildPhotoWithDescription('17bday/BNL_0160_Original.JPEG', ''),
     buildPhotoWithDescription('17bday/BNL_0166_Original.JPEG', ''),
     buildPhotoWithDescription('17bday/IMG_9336.jpg', ''),
-    buildPhotoWithDescription('17bday/IMG_9340.JPEG', ''),
+    //buildPhotoWithDescription('17bday/IMG_9340.JPEG', ''),
     buildPhotoWithDescription('17bday/IMG_9348.jpg', ''),
     buildPhotoWithDescription('17bday/IMG_9352.jpg', ''),
     buildPhotoWithDescription('17bday/IMG_9363.jpg', ''),
@@ -382,12 +382,14 @@ function buildAllCollections() {
 
   // 20 - 
   addPhotoCollection(buildPhotoCollection('House', [
-    buildPhotoWithDescription('20house/1107191148_HDR.jpg', ''),
-    buildPhotoWithDescription('20house/1107191148.jpg', ''),
-    buildPhotoWithDescription('20house/1107191149.jpg', ''),
-    buildPhotoWithDescription('20house/1107191151_HDR.jpg', ''),
     buildPhotoWithDescription('20house/1107191151a.jpg', ''),
+    buildPhotoWithDescription('20house/1107191151_HDR.jpg', ''),
     buildPhotoWithDescription('20house/1107191152_HDR.jpg', ''),
+    buildPhotoWithDescription('20house/1107191148_HDR.jpg', 'Provonce Room'),
+    buildPhotoWithDescription('20house/1107191148.jpg', 'Provonce Room'),
+    buildPhotoWithDescription('20house/1211192022.jpg', 'Bird Room'),
+    buildPhotoWithDescription('20house/1211192022a.jpg', 'Bird Room'),
+    buildPhotoWithDescription('20house/1107191149.jpg', ''),
   ]), 'May 2019');
   return photoCollections;
 }
